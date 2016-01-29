@@ -1,24 +1,7 @@
 ## README
+http://nithinbekal.com/posts/rails-action-cable/
+Learned from this project:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* ActionCable requires redis to operate
+* Updating `_channel.rb` file requires restarting server
+* Be careful parsing data: no nice string-to-symbol parsing of data in cable.

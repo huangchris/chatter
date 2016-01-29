@@ -3,4 +3,5 @@ class SessionsController < ApplicationController
     session[:username] = params[:session][:username]
     redirect_to messages_url
   end
+
 end
